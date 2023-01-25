@@ -1,0 +1,121 @@
+
+/*------------------------Home page ----------------*/
+/*------------------------Home page ----------------*/
+*,*::after,*::before{
+  box-sizing: inherit;
+}
+html{
+  box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #E7EDEE;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 800px !important;
+    background-color: #fff;
+}
+.navbar-toggler-icon{
+    color: rgb(64, 221, 59)!important;
+}
+
+
+.navbar-brand {
+  position: relative;
+  width: 150px;
+  left: 15px;
+  background-size: contain;
+}
+
+.Kotha-bolun a{
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 20px;
+}
+.Contact-us a span,#Practice_Areas .btn{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #149777;
+    color: white;
+}
+#Practice_Areas .pepsudent{
+  border: 2px solid #149777;
+  border-radius: 3px;
+  padding: 5px;
+  margin-top: 2px;
+  display: grid;
+}
+
+.Contact-us a span:hover{
+  background-color: #fff;
+  color: #149777;
+  border: 1px solid #149777;
+}
+#Practice_Areas .btn:hover{
+  background-color: #fff;
+  color: #149777;
+  border: 1px solid #149777;
+}
+
+  #footer-main .row{
+    border-top: 2px solid #149777;
+  }
+ 
+/*------------------------end Home page ----------------*/
+
+.hide {
+  display: none;
+}
+.number-copy .btn{
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #149777;
+  color: white;
+}
+.number-copy .btn:hover{
+background-color: #fff;
+color: #149777;
+border: 1px solid #149777;
+}
+.button {
+  background: green;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  text-align: center;
+}
+
+
+
+/*responsive css create by shafi*/
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 767px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .container {
+        max-width: 560px !important;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        max-width: 400px !important;
+    }
+}
+@media (max-width: 320px) {
+    .container {
+        max-width: 300px !important;
+    }
+    .carousel{
+      padding: 10px 0px !important;
+
+    }
+}
+
+/* end responsive css create by shafi*/
